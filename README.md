@@ -11,6 +11,6 @@ Game controls:
 Arrows  - move, rotate
 Space   - boost speed
 ESC     - restart
-P       - pause game
+(P       - pause game)
 
 12.2017.
