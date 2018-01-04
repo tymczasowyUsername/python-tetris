@@ -273,6 +273,8 @@ class Items:
     def get_post_rotation_XYs (self, key): 
         ''' Returns blocks' XYs after rotation; centre of rotation is second block in blocks attribute.'''
 
+        if self.id == 1: return self.blocks             # O - shape should rotate
+        
         dist_from_centre_of_rotation = [(x - self.blocks[1][0], y - self.blocks[1][1]) for (x, y) in self.blocks]
 
         if key == 'up':
