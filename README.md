@@ -8,7 +8,7 @@ blocks XYs and int. Main loop handles pygame events. Levels increases every 500 
 Clearing rows calculations: full row ^ 2 * 50. Game screen size, number of blocks in column and row can be adjusted.
 
 Game controls:
-Arrows  - move, rotate\n
+Arrows  - move, rotate
 Space   - boost speed
 ESC     - restart
 (P       - pause game)
